@@ -1,0 +1,16 @@
+<div class="container">
+
+<nav>
+    <div class="menu">
+        <a class="logo" href="/"><img src="/icons/logo.png" alt="Logo"></a>
+
+        {% assign current = page.url | downcase | split: '/' %}
+
+        <div class="menu-items">
+            <a href="/notes/"{% if current[1] == 'notes' %}class='active'{% endif %}>Notes</a>
+            <a href="/about/"{% if current[1] == 'about' %}class='active'{% endif %}>About</a>
+        </div>
+    </div>
+</nav>
+
+</div>

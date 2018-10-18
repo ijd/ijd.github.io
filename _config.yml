@@ -1,0 +1,10 @@
+# Site settings
+name: JD
+email: me@jdana.se
+url: https://jdana.se
+
+include: ['_pages']
+permalink: /notes/:title
+
+# Build settings
+markdown: kramdown

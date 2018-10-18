@@ -1,0 +1,16 @@
+---
+layout: default
+title: Notes – JD
+desc: Notes
+permalink: /notes/
+---
+
+<h3>Archive</h3>
+
+<ul class="posts", style="list-style-type: square;">
+
+    {% for post in site.posts %}
+
+    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>{% endfor %}
+
+</ul>
