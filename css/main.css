@@ -9,7 +9,7 @@ body {
   font-size: 2rem;
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
-  background-color: #FDFDFD;
+  background-color: #000000;
 }
 
 /* Grid
@@ -20,76 +20,38 @@ body {
   max-width: 70rem;
   margin: 5rem auto;
   padding: 0 2rem;
+  color: #FFFFFF;
 }
 
 /* Typography
 ------------------------- */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: bold;
+  color: #FFFFFF;
 }
 
-h1 { font-size: 3.4rem; line-height: 1.2;  letter-spacing: -.1rem; }
-h2 { font-size: 3.0rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 2.8rem; line-height: 1.3;  letter-spacing: -.1rem; }
-h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+h1 { font-size: 3.4rem; line-height: 1.20; }
+h2 { font-size: 3.2rem; line-height: 1.25; }
+h3 { font-size: 2.6rem; line-height: 1.30; }
+h4 { font-size: 2.0rem; line-height: 1.35; }
 
 p {
   margin-top: 0;
+  color: #FFFFFF;
 }
 
 /* Links
 ------------------------- */
 a {
-  color: #b5190e;
   font-weight: bold;
   text-decoration: none;
+  color: #FF2F2F;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-/* Introduction
-------------------------- */
-.header {
-  width: 100%;
-  height: 20rem;
-}
-
-.title {
-  text-align: center;
-}
-
-.subtitle {
-  text-align: center;
-  padding-top: 2rem;
-  font-size: 3rem;
-  opacity: 0.5;
-}
-
-/* Social Icons (SVG)
-------------------------- */
-.social {
-  width: 100%;
-  padding-top: 8rem;
-  text-align: center;
-}
-
-.social a {
-  display: inline-block;
-}
-
-a svg #mail {
-  transition: 200ms;
-  transition-timing-function: ease-in-out;
-}
-
-a:hover #mail {
-  fill: #e51919;
 }
 
 /* Menu
@@ -102,15 +64,15 @@ nav {
   z-index: 9999;
   width: 100%;
   height: 7rem;
-  color: #FFF;
-  box-shadow: 0 0 2rem 0 #000;
+  color: #FFFFFF;
+  box-shadow: 0 0 5rem 0 #222222;
   background-color:rgba(1, 1, 1, 0.9);
 }
 
 nav a {
   font-size: 2rem;
   margin: 0 1rem 0 1rem;
-  color: #bab5b5;
+  color: #FFFFFF;
 }
 
 .menu {
@@ -121,7 +83,7 @@ nav a {
 
 .menu-items a:hover {
   color: #FFF;
-  transition: 0.2s ease;
+  transition: 0.3s ease;
   border-bottom: 0.3rem solid white;
   text-decoration: none;
 }
@@ -140,8 +102,49 @@ nav a {
 
 /* Makes the active page link stay white and underlined */
 .active {
-  color: #FFF;
+  color: #FFFFFF;
   border-bottom: 0.3rem solid white;
+}
+
+/* Introduction
+------------------------- */
+.header {
+  width: 100%;
+  height: 20rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 3rem;
+  opacity: 0.8;
+  color: #FFFFFF;
+}
+
+/* Social Icons (SVG)
+------------------------- */
+.social {
+  width: 100%;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.social a {
+  display: inline-block;
+}
+
+a svg {
+  fill: #FFFFFF;
+}
+
+a:hover svg {
+  fill: #FF2F2F;
+  transition: 320ms;
+  transition-timing-function: ease-in-out;
 }
 
 /* Images
