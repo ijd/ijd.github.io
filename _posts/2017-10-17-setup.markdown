@@ -3,9 +3,7 @@ layout: post
 title:  Setup
 ---
 
-### Hardware
-
-PC Build:
+### PC Build
 * NCASE M1 v5
 * MSI B250I Gaming Pro AC
 * Intel i5 7500 @ 3,4GHz
@@ -14,13 +12,11 @@ PC Build:
 * Corsair Vengeance LPX 8GB DDR4 @ 2400Hz
 * Crucial MX300 525GB M.2
 * Corsair SF450
-* Dell U2417HA 24" 1080p
+* Dell U2417HA 24" 60Hz 1080p
 * Vortex Pok3r MX Brown
-* SteelSeries Rival 300
+* SteelSeries Rival 310
 
 ### Software
-
-#### Windows 10
 * [1Password](https://1password.com/) for remembering passwords.
 * [Chrome](https://www.google.com/chrome) for browsing the Internet.
 * [Dropbox](https://www.dropbox.com/) for file sync & sharing.
