@@ -47,7 +47,7 @@ p {
 a {
   font-weight: bold;
   text-decoration: none;
-  color: #FF2F2F;
+  color: #4487FC;
 }
 
 a:hover {
@@ -142,7 +142,7 @@ a svg {
 }
 
 a:hover svg {
-  fill: #FF2F2F;
+  fill: #4487FC;
   transition: 320ms;
   transition-timing-function: ease-in-out;
 }
