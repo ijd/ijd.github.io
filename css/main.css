@@ -115,9 +115,21 @@ nav a {
 
 .title {
   text-align: center;
+  font: bold 21rem Impact;
+  transform: skew(-12deg);
+  background-image: linear-gradient(white 80%, black 20%);
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: 100% 50px;
+  animation: stripes 2s linear infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
+
+@-webkit-keyframes stripes { 100% { background-position: 0 50px; } }
+@keyframes stripes { 100% { background-position: 0 50px; } }
+
 .subtitle { 
-  margin-top: 5rem;
   display: block;
   height: 1px;
   background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 250, from(#fff), to(#000));
@@ -136,7 +148,8 @@ nav a {
 
 a svg {
   fill: #FFFFFF;
-  margin-left: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 a:hover .email {
