@@ -116,20 +116,17 @@ nav a {
 .title {
   text-align: center;
 }
-
-.subtitle {
-  text-align: center;
-  padding-top: 2rem;
-  font-size: 3rem;
-  opacity: 0.8;
-  color: #FFFFFF;
+.subtitle { 
+  margin-top: 5rem;
+  display: block;
+  height: 1px;
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 250, from(#fff), to(#000));
 }
 
 /* Social Icons (SVG)
 ------------------------- */
 .social {
   width: 100%;
-  padding-top: 8rem;
   text-align: center;
 }
 
@@ -139,10 +136,23 @@ nav a {
 
 a svg {
   fill: #FFFFFF;
+  margin-left: 3rem;
 }
 
-a:hover svg {
-  fill: #4487FC;
+a:hover .email {
+  fill: #013ca6;
+  transition: 320ms;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover .github {
+  fill: #a71930;
+  transition: 320ms;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover .spotify {
+  fill: #1DB954;
   transition: 320ms;
   transition-timing-function: ease-in-out;
 }
