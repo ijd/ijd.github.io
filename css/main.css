@@ -132,6 +132,7 @@ nav a {
   animation: stripes 2s linear infinite;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 @-webkit-keyframes stripes { 100% { background-position: 0 50px; } }
