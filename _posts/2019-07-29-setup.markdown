@@ -6,29 +6,30 @@ title:  Setup
 ### PC Build
 * NCASE M1 v5
 * MSI B250I Gaming Pro AC
-* Intel i5 7500 @ 3,4GHz
+* Intel i5 7500
 * Noctua U9S
-* Sapphire Nitro+ RX 480 4GB
-* Corsair Vengeance LPX 8GB DDR4 @ 2400Hz
+* Sapphire RX 480 4GB NITRO+
+* Corsair Vengeance LPX 8GB DDR4
 * Crucial MX300 525GB M.2
 * Corsair SF450
 * Windows 10 Pro
 
 #### Peripherals
 * Dell U2417HA 24" 60Hz 1080p
-* Vortex Pok3r MX Brown
-* SteelSeries Rival 310
-* Beyerdynamic DT 990 Pro 250 Ohm
+* Vortex POK3R MX Brown
+* Logitech G305
+* Beyerdynamic DT 990 Pro
 
 ### Software
 * [7-Zip](https://www.7-zip.org/) for file archives.
 * [Bitwarden](https://bitwarden.com/) for remembering passwords.
-* [Chrome](https://www.google.com/chrome/) for the INTERNET.
-* [Firefox](https://www.mozilla.org/firefox/) as a secondary browser.
+* [Chrome](https://www.google.com/chrome/) for the Internet.
 * [GitHub](https://desktop.github.com/) for version control.
-* [mpv](https://mpv.io/) for audio & videos.
-* [OneDrive](https://onedrive.live.com/) for file sync & sharing.
+* [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html) for harware monitoring.
+* [mpv](https://mpv.io/) for videos.
+* [OneDrive](https://onedrive.live.com/) for file sync.
 * [qBittorrent](https://www.qbittorrent.org/) for torrents.
 * [Spotify](https://www.spotify.com/) for music streaming.
-* [Sublime Text](https://www.sublimetext.com/) for notes.
-* [VS Code](https://code.visualstudio.com/) for writing and editing code.
+* [Sublime Text](https://www.sublimetext.com/) for editing text.
+* [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html) for PDF files.
+* [Tor](https://www.torproject.org/download/) for anonymous browsing.
