@@ -15,7 +15,7 @@ body {
   font-size: 2rem;
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
-  background-color: #000000;
+  background-color: #f5f5f5;
 }
 
 /* Grid
@@ -26,7 +26,6 @@ body {
   max-width: 70rem;
   margin: 5rem auto;
   padding: 0 2rem;
-  color: #FFFFFF;
 }
 
 /* Typography
@@ -35,7 +34,6 @@ h1, h2, h3, h4 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: bold;
-  color: #FFFFFF;
 }
 
 h1 { font-size: 3.4rem; line-height: 1.20; }
@@ -45,7 +43,6 @@ h4 { font-size: 2.0rem; line-height: 1.35; }
 
 p {
   margin-top: 0;
-  color: #FFFFFF;
 }
 
 /* Links
@@ -70,15 +67,14 @@ nav {
   z-index: 9999;
   width: 100%;
   height: 7rem;
-  color: #FFFFFF;
-  box-shadow: 0 0 5rem 0 #222222;
+  box-shadow: 0 0 5rem 0 #121212;
   background-color:rgba(1, 1, 1, 0.9);
 }
 
 nav a {
   font-size: 2rem;
   margin: 0 1rem 0 1rem;
-  color: #FFFFFF;
+  color: #f5f5f5;
 }
 
 .menu {
@@ -88,7 +84,7 @@ nav a {
 }
 
 .menu-items a:hover {
-  color: #FFF;
+  color: #f5f5f5;
   transition: 0.3s ease;
   border-bottom: 0.3rem solid white;
   text-decoration: none;
@@ -108,7 +104,7 @@ nav a {
 
 /* Makes the active page link stay white and underlined */
 .active {
-  color: #FFFFFF;
+  color: #f5f5f5;
   border-bottom: 0.3rem solid white;
 }
 
@@ -117,7 +113,7 @@ nav a {
 .header {
   width: 100%;
   height: 34rem;
-  margin-top: -5rem;
+  margin-top: -2rem;
 }
 
 .title {
@@ -125,7 +121,7 @@ nav a {
   font-family: 'Anton', sans-serif;
   font: bold 20rem Anton;
   transform: skew(-12deg);
-  background-image: linear-gradient(white 80%, black 20%);
+  background-image: linear-gradient(black 80%, white 20%);
   background-repeat: repeat;
   background-position: 0 0;
   background-size: 100% 50px;
@@ -142,7 +138,7 @@ nav a {
   margin-top: -1rem;
   display: block;
   height: 1px;
-  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 250, from(#fff), to(#000));
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 250, from(#0a0a0a), to(#f5f5f5));
 }
 
 /* Social Icons (SVG)
@@ -157,25 +153,25 @@ nav a {
 }
 
 a svg {
-  fill: #FFFFFF;
+  fill: #0a0a0a;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
 a:hover .email {
-  fill: #013ca6;
+  fill: #1254c9;
   transition: 320ms;
   transition-timing-function: ease-in-out;
 }
 
 a:hover .github {
-  fill: #a71930;
+  fill: #c21935;
   transition: 320ms;
   transition-timing-function: ease-in-out;
 }
 
 a:hover .spotify {
-  fill: #1DB954;
+  fill: #1db954;
   transition: 320ms;
   transition-timing-function: ease-in-out;
 }
@@ -239,6 +235,34 @@ hr {
 
 /* Media Queries
 ------------------------- */
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0a0a0a;
+  }
+  a {
+    color: #4487fc;
+  }
+  h1, h2, h3, h4 {
+    color: #f5f5f5;
+  }
+  ul, ol, li {
+    color: #f5f5f5;
+  }
+  p {
+    color: #f5f5f5;
+  }
+  .title {
+    background-image: linear-gradient(white 80%, black 20%);
+  }
+  .subtitle { 
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 250, from(#f5f5f5), to(#0a0a0a));
+  }
+  a svg {
+    fill: #f5f5f5;
+  }
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
