@@ -115,6 +115,11 @@ img {
   height: auto;
 }
 
+.favicon {
+  padding-right: 5px;
+  display:inline-block;
+}
+
 /* Lists
 ------------------------- */
 ul { list-style: disc inside; }
